@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Google Advanced Search
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="googleright" class="font">Google</h1>
+            <div class="foo">
+                <button style="margin-block-start: 0px" style="margin-block-end: 0px;" onclick="document.location='index.html'">Google Search</button>
+                <button onclick="document.location='image.html'">Image Search</button>
+            </div>
+        </div>
+        <div>
+            <form action="https://www.google.com/search">
+                <table>
+                    <tr>
+                        <th>
+                            <h4 class="font">Find pages with...</h4>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="font">all these words:</p>
+                        </td>
+                        <td>
+                            <input type="search" name="q">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="font">this exact word or phrase:</p>
+                        </td>
+                        <td>
+                            <input type="search" name="as_epq">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="font">any of these words:</p>
+                        </td>
+                        <td>
+                            <input type="search" name="as_oq">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="font">none of these words:</p>
+                        </td>
+                        <td>
+                            <input type="search" name="as_eq">
+                        </td>
+                    </tr>
+                </table>
+                <div class="poo">
+                    <button class="sub" type="submit">search</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
